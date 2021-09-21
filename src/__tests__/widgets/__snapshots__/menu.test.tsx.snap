@@ -1731,7 +1731,7 @@ exports[`renders correctly 1`] = `
         >
           <a
             class="c22"
-            href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+            href="https://candyswap.one/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
             target="_blank"
           >
             <svg
@@ -3032,7 +3032,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c22"
-                    href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                    href="https://candyswap.one/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                     target="_blank"
                   >
                     <svg
@@ -3187,7 +3187,7 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c84"
-                  href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+                  href="https://candyswap.one/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
                   scale="sm"
                   target="_blank"
                 >

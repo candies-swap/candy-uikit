@@ -86,7 +86,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+              href="https://candyswap.one/swap?outputCurrency=0x9d039cDC4Fc975A6c6beb96723450fCfa958CC4A"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
