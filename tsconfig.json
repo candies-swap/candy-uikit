@@ -15,6 +15,6 @@
     "noEmit": false,
     "jsx": "react"
   },
-  "include": ["src"],
+  "include": ["src", "src/components/Svg/Icons/Wib/.tsx"],
   "exclude": ["node_modules", "src/**/*.stories.tsx", "src/__tests__/**/*"]
 }
