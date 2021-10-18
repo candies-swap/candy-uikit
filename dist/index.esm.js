@@ -1987,7 +1987,7 @@ var templateObject_1$T, templateObject_2$t, templateObject_3$b, templateObject_4
 var PriceLink = styled.a(templateObject_1$S || (templateObject_1$S = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://candyswap.one/swap?outputCurrency=0x9d039cDC4Fc975A6c6beb96723450fCfa958CC4A", target: "_blank" },
+    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://candyswap.one/swap?outputCurrency=0x794F13ec3b4260f4d734310bF151a0a4428ff856", target: "_blank" },
         React__default.createElement(Icon$14, { width: "24px", mr: "8px" }),
         React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4738,7 +4738,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "https://candyswap.one/swap?outputCurrency=0x9d039cDC4Fc975A6c6beb96723450fCfa958CC4A", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$22, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "https://candyswap.one/swap?outputCurrency=0x794F13ec3b4260f4d734310bF151a0a4428ff856", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$22, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
