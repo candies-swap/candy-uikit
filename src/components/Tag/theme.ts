@@ -38,4 +38,7 @@ export const styleVariants = {
   [variants.WARNING]: {
     backgroundColor: "warning",
   },
+  [variants.LIGHTBLUE]: {
+    backgroundColor: "lightBlue",
+  }
 };

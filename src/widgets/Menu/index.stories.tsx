@@ -67,10 +67,10 @@ const GlobalMenuComponent: React.FC = () => {
   return (
     <Flex>
       <IconButton onClick={onPresent1} variant="text" scale="sm" mr="4px">
-        <LanguageCurrencyIcon height={22} width={22} color="textSubtle" />
+        <LanguageCurrencyIcon height={22} width={22} color="black" />
       </IconButton>
       <IconButton onClick={onPresent2} variant="text" scale="sm" mr="8px">
-        <CogIcon height={22} width={22} color="textSubtle" />
+        <CogIcon height={22} width={22} color="black" />
       </IconButton>
     </Flex>
   );

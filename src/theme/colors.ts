@@ -2,12 +2,16 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#70C8DF",
+  primary: "#22badb",
   primaryBright: "#fa9f3f",
   primaryDark: "#da750a",
   secondary: "#6a91ff",
   success: "#31D0AA",
   warning: "#FFB237",
+  black: "#27262c",
+  white: "#FFFFFF",
+  none: 'none',
+  lightBlue: '#22badb',
 };
 
 export const additionalColors = {
@@ -33,7 +37,7 @@ export const lightColors: Colors = {
   input: "#eeeaf4",
   inputSecondary: "#d7caec",
   tertiary: "#EFF4F5",
-  text: "#8b5b20",
+  text: "black",
   textDisabled: "#BDC2C4",
   textSubtle: "#603a70",
   disabled: "#E9EAEB",
@@ -46,6 +50,10 @@ export const lightColors: Colors = {
     violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
   },
+  customPrimaryDark: "#ec671f",
+  customPageBackground: "#f4f4f4",
+  customDropdownDeep: "#FFFFFF",
+  customInput: "#FFFFFF",
 };
 
 export const darkColors: Colors = {
@@ -78,4 +86,8 @@ export const darkColors: Colors = {
     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
   },
+  customPrimaryDark: "#0098A1",
+  customPageBackground: "#08060B",
+  customDropdownDeep: "#100C18",
+  customInput: "#372F47",
 };

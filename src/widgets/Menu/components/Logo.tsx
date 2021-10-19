@@ -16,6 +16,8 @@ const blink = keyframes`
 
 const StyledLink = styled(Link)`
   display: flex;
+  position: absolute;
+  top: 9px;
   align-items: center;
   .mobile-icon {
     width: 48px;
@@ -24,7 +26,7 @@ const StyledLink = styled(Link)`
     }
   }
   .desktop-icon {
-    width: 48px;
+    width: 80px;
     display: none;
     ${({ theme }) => theme.mediaQueries.nav} {
       display: block;

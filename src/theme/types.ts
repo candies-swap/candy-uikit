@@ -25,6 +25,7 @@ export type Shadows = {
   success: string;
   warning: string;
   focus: string;
+  customFocus: string;
   inset: string;
   tooltip: string;
 };
@@ -43,6 +44,8 @@ export type Colors = {
   primary: string;
   primaryBright: string;
   primaryDark: string;
+  black: string;
+  white: string;
   secondary: string;
   tertiary: string;
   success: string;
@@ -63,7 +66,11 @@ export type Colors = {
   textDisabled: string;
   textSubtle: string;
   disabled: string;
-
+  customPrimaryDark: string;
+  customPageBackground: string;
+  customDropdownDeep: string;
+  customInput: string;
+  lightBlue: string;
   // Gradients
   gradients: Gradients;
 

@@ -1,5 +1,5 @@
 import { capitalize } from "lodash";
-import React, { useState } from "react";
+import { React, useState } from "react";
 import { BrowserRouter, Link } from "react-router-dom";
 import styled from "styled-components";
 import Box from "../Box/Box";

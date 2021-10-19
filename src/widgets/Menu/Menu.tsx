@@ -108,9 +108,9 @@ const Menu: React.FC<NavProps> = ({
       <StyledNav showMenu={showMenu}>
         <Flex>
           <Logo isDark={isDark} href={homeLink?.href ?? "/"} />
-          {!isMobile && <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" />}
         </Flex>
         <Flex alignItems="center">
+          {!isMobile && <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" />}
           {!isMobile && (
             <Box mr="12px">
               <CakePrice cakePriceUsd={cakePriceUsd} />
@@ -122,8 +122,8 @@ const Menu: React.FC<NavProps> = ({
               langs={langs}
               setLang={setLang}
               buttonScale="xs"
-              color="textSubtle"
-              hideLanguage
+              color="black"
+              hideLanguage={false}
             />
           </Box>
           {globalMenu} {userMenu}

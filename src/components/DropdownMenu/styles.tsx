@@ -9,9 +9,9 @@ const getTextColor = ({
   theme,
 }: StyledDropdownMenuItemProps & { theme: DefaultTheme; $isActive: boolean }) => {
   if (disabled) return theme.colors.textDisabled;
-  if ($isActive) return theme.colors.secondary;
+  if ($isActive) return theme.colors.customPrimaryDark;
 
-  return theme.colors.textSubtle;
+  return theme.colors.black;
 };
 
 export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $isActive: boolean }>`
@@ -42,13 +42,13 @@ export const DropdownMenuItem = styled.button<StyledDropdownMenuItemProps & { $i
 
 export const StyledDropdownMenuItemContainer = styled.div`
   &:first-child > ${DropdownMenuItem} {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
   &:last-child > ${DropdownMenuItem} {
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 `;
 
@@ -73,7 +73,7 @@ export const StyledOverlay = styled.div`
 export const StyledDropdownMenu = styled.div<{ $isOpen: boolean; $isBottomNav: boolean }>`
   background-color: ${({ theme }) => theme.card.background};
   border: 1px solid ${({ theme }) => theme.colors.cardBorder};
-  border-radius: 16px;
+  border-radius: 0px;
   padding-bottom: 4px;
   padding-top: 4px;
   pointer-events: auto;
@@ -90,7 +90,7 @@ export const StyledDropdownMenu = styled.div<{ $isOpen: boolean; $isBottomNav: b
 `;
 
 export const LinkStatus = styled(Text)<{ color: keyof Colors }>`
-  border-radius: ${({ theme }) => theme.radii.default};
+  border-radius: 0px;
   padding: 0 8px;
   border: 2px solid;
   border-color: ${({ theme, color }) => theme.colors[color]};

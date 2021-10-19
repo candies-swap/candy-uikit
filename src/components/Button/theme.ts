@@ -58,4 +58,23 @@ export const styleVariants = {
     color: "textSubtle",
     boxShadow: "none",
   },
+  [variants.BLACK]: {
+    backgroundColor: "black",
+    color: "white",
+    boxShadow: "none",
+    textTransform: "uppercase"
+  },
+  [variants.OUTLINE]: {
+    background: "none",
+    color: "black",
+    boxShadow: "none",
+    border: '1px solid #c6c6c6',
+    fontWeight: 'medium'
+  },
+  [variants.CUSTOM_PRIMARY_DARK]: {
+    backgroundColor: "customPrimaryDark",
+    color:"white",
+    boxShadow: "none",
+    textTransform: "uppercase",
+  }
 };

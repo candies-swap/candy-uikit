@@ -23,7 +23,7 @@ const PriceLink = styled.a`
   }
 `;
 
-const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle" }) => {
+const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "black" }) => {
   return cakePriceUsd ? (
     <PriceLink
       href="https://candyswap.one/swap?outputCurrency=0x794F13ec3b4260f4d734310bF151a0a4428ff856"

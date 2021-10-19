@@ -4,7 +4,16 @@ import { Box, Flex } from "../Box";
 import SocialLinks from "./Components/SocialLinks";
 
 export const StyledFooter = styled(Flex)`
-  background: ${darkColors.backgroundAlt};
+  background: url('/images/custom/footer.png') no-repeat center;
+  background-size: cover;
+`;
+
+export const StyleFooterContainer = styled.div`
+  
+`;
+
+export const StyledFooterSocialLinks = styled(Flex)`
+  background: #27262c;
 `;
 
 export const StyledList = styled.ul`
@@ -22,7 +31,7 @@ export const StyledListItem = styled.li`
   text-transform: capitalize;
 
   &:first-child {
-    color: ${darkColors.secondary};
+    color: #fff;
     font-weight: 600;
     text-transform: uppercase;
   }

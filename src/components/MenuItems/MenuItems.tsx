@@ -8,13 +8,13 @@ import { MenuItemsProps } from "./types";
 const MenuItems: React.FC<MenuItemsProps> = ({ items = [], activeItem, activeSubItem, ...props }) => {
   return (
     <Flex {...props}>
-      {items.map(({ label, items: menuItems = [], href, icon = "" }) => {
+      {items.map(({ label, items: menuItems = [], href, icon = "ChevronDown" }) => {
         const statusColor = menuItems?.find((menuItem) => menuItem.status !== undefined)?.status?.color;
         const isActive = activeItem === href;
         return (
           <DropdownMenu key={label} items={menuItems} py={1} activeItem={activeSubItem}>
             <MenuItem href={href} isActive={isActive} statusColor={statusColor}>
-              {label || <IconComponent iconName={icon} color={isActive ? "secondary" : "textSubtle"} />}
+              {label} <IconComponent iconName={icon} color={isActive ? "customPrimaryDark" : "black"} />
             </MenuItem>
           </DropdownMenu>
         );
